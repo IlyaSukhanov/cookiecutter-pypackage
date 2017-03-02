@@ -10,4 +10,6 @@ Sphinx>=1.4.8,<2.0
 cryptography>=1.7,<2.0
 PyYAML>=3.11{% endif %}
 {% if cookiecutter.use_pytest == 'y' -%}
-pytest>=2.9.2,<3.0{%- endif %}
+pytest>=2.9.2,<3.0
+pyparsing>=2.1.10,<3.0
+pytest-cov>=2.4.0<3.0{%- endif %}
